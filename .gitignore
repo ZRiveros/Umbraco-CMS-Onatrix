@@ -361,10 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/UmbracoOnatrix/appsettings.json
 /UmbracoOnatrix/.gitignore
 /UmbracoOnatrix/umbraco-package-schema.json
 /UmbracoOnatrix/appsettings-schema.json
-/UmbracoOnatrix/appsettings.Development.json
-/UmbracoOnatrix/appsettings.json
-/UmbracoOnatrix/appsettings.Development.json
