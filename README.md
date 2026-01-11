@@ -1,25 +1,30 @@
-🌐 Umbraco Onatrix
+This project is a static website built using Umbraco CMS (v16.3.1) with Razor Views and the Block List Editor for content management.
+The purpose of the project was to recreate a website based on a provided design file.
 
-Detta projekt är en statisk webbplats byggd i Umbraco CMS (v16.3.1) med Razor Views och Block List Editor för innehållshantering.
-Syftet med projektet är att återskapa designen enligt tillhandahållen designfil.
 
-Projektet är utvecklat enligt kraven för G-nivå och fokuserar på korrekt uppbyggnad, struktur och innehåll — ej på responsivitet eller avancerad funktionalitet.
-🧩 Funktionalitet och struktur
+🧩 Functionality & Structure
 
-    Webbplatsen följer designfilens samtliga sidor, sektioner och innehållsstruktur.
-    Block List Editor och Element Types används för att bygga upp sidorna modulärt.
-    Posters hanteras som child pages under relevant sida.
-    Formulär (t.ex. "Request a call back") finns visuellt enligt design, men är inte funktionella.
-    Navigeringen är dynamisk och hämtas automatiskt från innehållsträdet i Umbraco.
-    Globala delar såsom logotyp, kontaktinformation och sociala länkar är hårdkodade (ingen Site Settings används).
-    Ingen paginering eller slider är implementerad.
-    Sökfunktionen i headern är ej fungerande (endast visuell).
+The website follows the design file in terms of pages, sections, and content structure.
 
-🛠️ Teknisk översikt
-Teknologi 	Användning
-Umbraco CMS 16.3.1 	Backend och innehållshantering
-ASP.NET Core / Razor (.cshtml) 	Dynamisk rendering av innehåll
-HTML5 / CSS3 	Struktur och styling
-Font Awesome 	Ikoner
-Visual Studio 2022 	Utvecklingsmiljö
-GitHub 	Versionshantering
+The Block List Editor and Element Types are used to build pages in a modular way.
+
+Posters are handled as child pages under the relevant parent pages.
+
+Forms (e.g. “Request a call back”) are implemented visually according to the design, but are not functional.
+
+Navigation is dynamic and generated automatically from the Umbraco content tree.
+
+Global elements such as logo, contact information, and social links are hardcoded (no Site Settings are used).
+
+No pagination or sliders are implemented.
+
+The search function in the header is visual only and not functional.
+
+🛠️ Technical Overview
+Technology	Usage
+Umbraco CMS 16.3.1	Backend and content management
+ASP.NET Core / Razor (.cshtml)	Dynamic content rendering
+HTML5 / CSS3	Structure and styling
+Font Awesome	Icons
+Visual Studio 2022	Development environment
+GitHub	Version control
